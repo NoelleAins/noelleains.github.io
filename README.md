@@ -1,5 +1,5 @@
-# cactpot-calculator
-A simple javascript calculator for maximizing your profits from playing the Mini Cactpot lottery in FFXIV.
+# FFXIV ミニくじテンダー ソルバー
+https://noelleains.github.io/cactpot/
 
-## Instructions
-Go here: http://super-aardvark.github.io/cact.html
+# weather
+https://noelleains.github.io/weather/
