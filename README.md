@@ -1,4 +1,4 @@
-# FFXIV ミニくじテンダー ソルバー
+# FFXIV 繝溘ル縺上§繝�繝ｳ繝繝ｼ 繧ｽ繝ｫ繝舌�ｼ
 https://noelleains.github.io/cactpot/
 
 # weather
