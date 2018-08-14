@@ -88,7 +88,7 @@ weatherChances: {
 "Yanxia": function(chance) { if ((chance -= 5) < 0) { return "暴雨"; } else if ((chance -= 10) < 0) { return "雨"; } else if ((chance -= 10) < 0) { return "霧"; } else if ((chance -= 15) < 0) { return "曇り"; } else if ((chance -= 40) < 0) { return "晴れ"; } else { return "快晴"; } },
 "The Azim Steppe": function(chance) { if ((chance -= 5) < 0) { return "暴風"; } else if ((chance -= 5) < 0) { return "風"; } else if ((chance -= 7) < 0) { return "雨"; } else if ((chance -= 8) < 0) { return "霧"; } else if ((chance -= 10) < 0) { return "曇り"; } else if ((chance -= 40) < 0) { return "晴れ"; } else { return "快晴"; } },
 "Eureka Anemos": function(chance) { if ((chance -= 30) < 0) { return "晴れ"; } else if ((chance -= 30) < 0) { return "暴風"; } else if ((chance -= 30) < 0) { return "暴雨"; } else { return "雪"; } },
-"Eureka Pagos": function(chance) { if ((chance -= 10) < 0) { return "晴れ"; } else if ((chance -= 28) < 0) { return "霧"; } else if ((chance -= 46) < 0) { return "灼熱波"; } else if ((chance -= 64) < 0) { return "雪"; } else if ((chance -= 82) < 0) { return "雷"; } else { return "吹雪"; } }
+"Eureka Pagos": function(chance) { if (chance < 10) { return "晴れ"; } else if (chance < 28) { return "霧"; } else if (chance < 46) { return "灼熱波"; } else if (chance < 64) { return "雪"; } else if (chance < 82) { return "雷"; } else { return "吹雪"; } }
 },
 
 weatherLists: {
